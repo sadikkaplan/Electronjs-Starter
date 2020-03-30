@@ -9,9 +9,6 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 
 document.body.appendChild(renderer.domElement);
 
-// Kamerayı geriye doğru çekiyoruz
-camera.position.z = 5;
-
 //Bu fonksiyon loop şeklinde çalışır
 function animate(){
     requestAnimationFrame(animate);
