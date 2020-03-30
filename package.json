@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron . --disable-gpu"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -18,5 +18,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^6.0.7"
+  },
+  "dependencies": {
+    "three": "^0.115.0"
   }
 }
